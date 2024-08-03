@@ -6,7 +6,7 @@ function HomePage() {
     <div>
       <h1>Home Page</h1>
       <div>
-        <Link to="/settings">Settings</Link>
+        <Link to="/settings/token">Settings</Link>
       </div>
       <div>
         <Link to="/dashboard">Dashboard</Link>
