@@ -1,0 +1,28 @@
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .repo-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .repo-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .repo-owner {
+    font-weight: bold;
+  }
+  
+  .repo-actions button {
+    margin-left: 8px;
+  }
+    
